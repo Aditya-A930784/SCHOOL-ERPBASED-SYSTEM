@@ -1,10 +1,10 @@
-# 🎓 Riya International School — ERP System
+# Riya International School — ERP System
 
 A complete school management ERP built with **Node.js**, **Express**, **MongoDB**, **ERP**, **JWT Auth**, and **Nodemailer**.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 school-erp/
@@ -41,7 +41,7 @@ school-erp/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Install Dependencies
 ```bash
@@ -85,7 +85,7 @@ Admin auto-creates on first startup. Login: `principal / Admin@123`
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 - **JWT Tokens** stored in **HTTP-only cookies** + session
 - **bcryptjs** hashing (salt rounds: 12)
@@ -94,7 +94,7 @@ Admin auto-creates on first startup. Login: `principal / Admin@123`
 
 ---
 
-## 📊 Admin Panel Features
+##  Admin Panel Features
 
 | Feature | Route |
 |---------|-------|
@@ -108,7 +108,7 @@ Admin auto-creates on first startup. Login: `principal / Admin@123`
 
 ---
 
-## 👨‍🏫 Teacher Panel Features
+##  Teacher Panel Features
 
 | Feature | Route |
 |---------|-------|
@@ -122,7 +122,7 @@ Admin auto-creates on first startup. Login: `principal / Admin@123`
 
 ---
 
-## 📄 Transfer Certificate (TC)
+##  Transfer Certificate (TC)
 
 The TC preview exactly matches the Riya International School format with all fields:
 - Student personal & family details
@@ -144,7 +144,7 @@ The TC preview exactly matches the Riya International School format with all fie
 
 ---
 
-## 📥 Excel Import Format
+##  Excel Import Format
 
 Required columns (case-insensitive):
 ```
@@ -156,16 +156,16 @@ Admission Date | Parent Contact
 
 ---
 
-## 📧 Email Notifications (Nodemailer)
+##  Email Notifications (Nodemailer)
 
 Emails are sent automatically when:
-- ✅ Teacher is **added** (welcome email with credentials)
-- ✅ Teacher profile is **updated** (change summary)
-- ✅ Teacher password is **reset** (new password)
+-  Teacher is **added** (welcome email with credentials)
+-  Teacher profile is **updated** (change summary)
+-  Teacher password is **reset** (new password)
 
 ---
 
-## 🎨 Design
+##  Design
 
 - **Theme:** Deep Navy (`#0f1f3d`) + Antique Gold (`#c9a84c`)
 - **Typography:** Playfair Display (headings) + DM Sans (body)
